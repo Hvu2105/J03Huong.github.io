@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./font/themify-icons.css">
+</head>
+<body>
+    <p style="text-align: left; font-weight: bold;"><a href="./index.html">Trang chủ</a> | <a href="./Danhmuc.html">Danh mục</a> | <a href="./Sanpham.html">Sản phẩm</a></p>
+    <div id="main">
+        <div id="header">
+            <!--Thẻ điều hướng-->
+            <ul id="nav">
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#Danhmuc">Danh mục</a></li>
+                <li><a href="#Sanpham">Sản phẩm</a></li>
+                <li>
+                    <a href="#">
+                        Thêm 
+                        <i class="nav-arrow-down ti-angle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="./lienhe.html">Liên hệ</a></li>
+                        <li><a href="./dieukhoan.html">Điều khoản</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!--Thẻ tìm kiếm-->
+            <div class="search-btn">
+                <i class="search-icon ti-search"></i>
+            </div>
+        </div>
+
+        <div id="slider">
+            <div class="text-content">
+                <h2 class="text-heading"></h2>
+                <div class="text-description"></div>
+            </div>
+        </div>
+        <!--Giới thiệu đầu sách nổi bật-->
+        <div id="content">
+            <div id="Danhmuc" class="content-section">
+                <h2 style="text-align: center;">Danh mục</h2>
+                <p class="section-sub-heading">Thể loại tiêu biểu</p>
+                <div class="row book-list">
+                    <div class="col col-third text-center">
+                        <p class="book-name">Tiểu thuyết trinh thám</p>
+                        <img src="./img/Sach ngoai van.jpg" alt="name" class="book-img">
+                    </div>
+                    <div class="book-list">
+                        <div class="col col-third text-center">
+                            <p class="book-name">Tiểu thuyết ngôn tình</p>
+                            <img src="./img/ngon tinh.jpg" alt="name" class="book-img">
+                        </div>
+                    </div>
+                    <div class="book-list">
+                        <div class="col col-third text-center">
+                            <p class="book-name">Tiểu thuyết kinh dị</p>
+                            <img src="./img/kinh di.jpg" alt="name" class="book-img">
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <!--Sản phẩm-->
+                <div class="product-section">
+                    <div id="product" class="content-section">
+                        <h2 class="section-heading text-center">SẢN PHẨM</h2>
+                        <p class="section-sub-heading text-center">Những sản phẩm bán chạy</p>
+                        <!--Một vài sản phẩm-->
+                        <ul class="product-list">
+                            <li>Bên nhau trọn đời <span class="hot">Hot</span></li>
+                            <li>Sherlock Holmes <span class="hot">Hot</span></li>
+                            <li>Tam quốc diễn nghĩa<span class="hot">Hot</span></li>
+                        </ul>
+                        <div class="row products-list">
+                            <div class="col col-third">
+                                <img src="./img/ngon tinh.jpg" alt="Ngon tinh" class="place-img">
+                                <div class="products-body">
+                                    <h3 class="products-heading">Bên nhau trọn đời</h3>
+                                    
+                                    <button class="btn s-full-width js-buy-books">Mua sách</button>
+                                </div>
+                            </div>
+                            <div class="col col-third">
+                                <img src="./img/Sach ngoai van.jpg" alt="Trinh tham" class="place-img">
+                                <div class="products-body">
+                                    <h3 class="products-heading">Sherlock Holmes</h3>
+                                    
+                                    <button class="btn s-full-width js-buy-books">Mua sách</button>
+                                </div>
+                            </div>
+                            <div class="col col-third">
+                                <img src="./img/tam-quoc-dien-nghia-la-quan-trung-776625.jpg" alt="Tieu thuyet trung" class="place-img">
+                                <div class="products-body">
+                                    <h3 class="products-heading">Tam quốc diễn nghĩa</h3>
+                                    
+                                    <button class="btn s-full-width js-buy-books">Mua sách</button>
+                                </div>
+                            </div>
+                        <div class="clear"></div>
+                    </div>
+
+                </div>
+                <!--Liên hệ-->
+                <div id="LienHe" class="content-section">
+                    <h2 class="section-heading">LIÊN HỆ</h2>
+                    <div class="row contact-content">
+                        <div class="col">
+                            <div class="col col-half contact-info"></div>
+                            <p><i class="ti-location-pin"></i>Hanoi, Vietnam</p>
+                            <p><i class="ti-mobile"></i>Số điện thoại: 0923736453</p>
+                            <p><i class="ti-email"></i>Email: vnhuong2105@gmail.com</p>
+                        </div>
+                        <div class="col col-half contact-form">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col col-half">
+                                        <input type="text" name="" placeholder="Name" required class="form-control">
+    
+                                    </div>
+                                    <div class="col col-half">
+                                        <input type="email" name="" placeholder="Email" required class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row mt-8">
+                                    <div class="col col-full">
+                                        <input type="text" name="" placeholder="Message" required class="form-control">
+                                    </div>
+                                </div>
+                                <input class="form-submit-btn mt-16" type="submit" value="SEND" required class="contact-send-btn">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="socials-list">
+                <a href=""><i class="ti-facebook"></i></a>
+                <a href=""><i class="ti-instagram"></i></a>
+                <a href=""><i class="ti-pinterest"></i></a>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
